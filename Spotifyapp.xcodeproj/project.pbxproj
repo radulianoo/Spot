@@ -29,6 +29,7 @@
 		ECA702CE29DAF53500565870 /* AudioTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA702CD29DAF53500565870 /* AudioTrack.swift */; };
 		ECA702D029DAF53E00565870 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA702CF29DAF53E00565870 /* Artist.swift */; };
 		ECA702D229DAF54A00565870 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA702D129DAF54A00565870 /* UserProfile.swift */; };
+		ECA702D429DB351100565870 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA702D329DB351100565870 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		ECA702CD29DAF53500565870 /* AudioTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTrack.swift; sourceTree = "<group>"; };
 		ECA702CF29DAF53E00565870 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		ECA702D129DAF54A00565870 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		ECA702D329DB351100565870 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 				ECA7029B29DADD2900565870 /* Assets.xcassets */,
 				ECA7029229DADD2900565870 /* AppDelegate.swift */,
 				ECA7029429DADD2900565870 /* SceneDelegate.swift */,
+				ECA702D329DB351100565870 /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				ECA7029329DADD2900565870 /* AppDelegate.swift in Sources */,
 				ECA702B729DAF44000565870 /* AuthVC.swift in Sources */,
 				ECA702D229DAF54A00565870 /* UserProfile.swift in Sources */,
+				ECA702D429DB351100565870 /* Extensions.swift in Sources */,
 				ECA702AF29DAF3AE00565870 /* TabBarVC.swift in Sources */,
 				ECA702D029DAF53E00565870 /* Artist.swift in Sources */,
 				ECA7029529DADD2900565870 /* SceneDelegate.swift in Sources */,
@@ -414,7 +418,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -445,7 +449,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
